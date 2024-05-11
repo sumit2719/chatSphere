@@ -4,7 +4,7 @@ import cookieParser from "cookie-parser";
 
 import authRoutes from "./routes/auth.routes.js";
 import messageRoutes from "./routes/message.routes.js";
-import connectToMongo from "./db/connectToMongo.js";
+import connectToMongo from "./db/conn.js";
 const app= express();
 dotenv.config();
 

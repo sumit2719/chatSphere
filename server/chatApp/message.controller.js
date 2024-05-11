@@ -6,13 +6,14 @@ export const sendMessage = async (req,res) => {
         const {message} = req.body;
         const {id: recieverId} = req.params;
         const senderId = req.user._id.toString();
+        console.log(senderId);
         
 
-        const conversation=await Conversation.findOne({
+        let conversation=await Conversation.findOne({
             participants: {$all: [senderId, recieverId]},
         })
 
-
+        console.log("trigger 2");
         if(!conversation){
             conversation = await Conversation.create({
                 participants : [senderId, recieverId]
@@ -31,7 +32,9 @@ export const sendMessage = async (req,res) => {
 
         if(newMessage){
             conversation.messages.push(newMessage._id);
+            await conversation.save();
         }
+        await newMessage.save();
         res.status(201).json(newMessage);
 
     } catch (error) {
