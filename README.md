@@ -39,6 +39,16 @@ Enter your credentials for the following-
 - MODE=
 - API_KEY=
 
+### Features Included 
+- User Authentication
+- Token Generation using JWT
+- Real-time chatting using Socket.IO
+- Saved users and messages in MongoDB
+- Used bcrypt to hash passwords saved in database
+- Integrated LLM - Gemini API
+- Users can set their status as 'Available' or 'Busy'
+- Automated response from LLM if user is busy
+- Standard message, in case LLM doesn't respond- 'User is busy'.
 
 ### Technologies Used
 ChatSphere is built using the MERN (MongoDB, Express.js, React, Node.js), socket io, JWT, Gemini AI. The frontend is a basic one which is for demonstation purpose of backend functions.
