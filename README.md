@@ -21,11 +21,13 @@ A Web Application for realtime chatting.
 
 ### POSTMAN API Documentation
 - Collection of APIs used for authentication
-- 
+
 https://documenter.getpostman.com/view/21201660/2sA3JNa11Y
 - Collection of APIs used for sending and receiving messages
+  
 https://documenter.getpostman.com/view/21201660/2sA3JNa11a
 - Collection of APIs used for getting users list to create chats
+
 https://documenter.getpostman.com/view/21201660/2sA3JNa15q
 
 
@@ -46,5 +48,5 @@ We welcome feedback and contributions from the community. If you find a bug or h
 
 ### By-
 #### Sumit 
-####Lovely Professional Univeresity 
+#### Lovely Professional Univeresity 
 #### Reg. No. 12115166
