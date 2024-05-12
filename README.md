@@ -19,7 +19,10 @@ A Web Application for realtime chatting.
 - cd ..   
 - npm start
 
-
+### By-
+#### Sumit 
+####Lovely Professional Univeresity 
+#### Reg. No. 12115166
 ### POSTMAN API Documentation
 - Collection of APIs used for authentication
 https://documenter.getpostman.com/view/21201660/2sA3JNa11Y
