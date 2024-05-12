@@ -19,12 +19,9 @@ A Web Application for realtime chatting.
 - cd ..   
 - npm start
 
-### By-
-#### Sumit 
-####Lovely Professional Univeresity 
-#### Reg. No. 12115166
 ### POSTMAN API Documentation
 - Collection of APIs used for authentication
+- 
 https://documenter.getpostman.com/view/21201660/2sA3JNa11Y
 - Collection of APIs used for sending and receiving messages
 https://documenter.getpostman.com/view/21201660/2sA3JNa11a
@@ -46,3 +43,8 @@ ChatSphere is built using the MERN (MongoDB, Express.js, React, Node.js), socket
 
 ### Feedback and Contributions
 We welcome feedback and contributions from the community. If you find a bug or have a feature request, please open an issue. We encourage you to fork the repository, make improvements, and create a pull request.
+
+### By-
+#### Sumit 
+####Lovely Professional Univeresity 
+#### Reg. No. 12115166
