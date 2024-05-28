@@ -1,5 +1,5 @@
 ## ChatSphere
-A Web Application for realtime chatting.
+A Web Application(Back-end) for realtime chatting.
 
 ### Problem Statement :
  Develop a comprehensive backend for a real-time chat application using the MERN
